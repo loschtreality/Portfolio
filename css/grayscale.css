@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #7FDBFF;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #19beff;
 }
 .light {
   font-weight: 400;
@@ -245,16 +245,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #7FDBFF;
+  color: #7FDBFF;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #7FDBFF;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #7FDBFF;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -299,13 +299,19 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+.step {
+  margin-top: 30px;
+}
 #profile_pic {
   margin: 0 auto 35px;
   max-height: 400px;
 }
-.project-header {
-  color: $primary;
+.logo-img {
+  max-height: 250px;
 }
-.step {
-  margin-top: 30px;
+.ruby-row {
+  margin-top: 40px;
+}
+#ruby-logo {
+  max-height: 200px;
 }
